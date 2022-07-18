@@ -1,0 +1,19 @@
+#outer
+{
+    height: 200px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: row;
+
+}
+#form
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(44, 48, 47); */
+   
+}
+#p1
+{
+    color:red;
+}
