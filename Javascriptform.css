@@ -1,0 +1,28 @@
+#outer
+{
+  height: 300px;
+  width: 90%;
+  /* background-color: aqua; */
+  margin-top: 5%;
+  margin-left: 2%;
+
+}
+#pid
+{
+  margin-top:4%;
+  margin-bottom:4% ;
+}
+#pname
+{      margin-top:4%;
+  margin-bottom:4% ;
+}
+#pprice
+{
+  margin-top:4%;
+  margin-bottom:8% ;
+}
+button
+{
+  width: 299%;
+  height: 30px;
+}
