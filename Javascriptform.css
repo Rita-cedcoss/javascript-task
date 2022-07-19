@@ -26,3 +26,18 @@ button
   width: 299%;
   height: 30px;
 }
+
+#tbl1 td{
+    
+    padding: 10px;
+    
+  }
+  #tbl1 th{
+    
+    padding: 10px;
+  }
+  
+  #tbl{
+    border-collapse: collapse;
+    width: 50%;
+  }
