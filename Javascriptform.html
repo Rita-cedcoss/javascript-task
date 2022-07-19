@@ -23,7 +23,7 @@
                 <td><input id="pprice" type="text"></td>
             </tr>
             <tr>
-               
+               <!--  -->
                 <td><button onclick="Addproduct()">Add Product</button></td>
             </tr>
         </table>
@@ -45,7 +45,7 @@
     arr.push({Pid:id1,Pname:name,Pprice:price});
     
 
-    var text = "<table ><tr><th>Product id</th> <th>Product Name</th><th>Product Price</th></tr>";
+    var text = "<table><tr><th>Product id</th> <th>Product Name</th><th>Product Price</th></tr>";
 
     for (var i = 0; i < arr.length; i++) {
      text += "<tr><td>" + arr[i].Pid + "</td><td>" + arr[i].Pname+ "</td><td>" + arr[i].Pprice+ "</td><tr>";
