@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="outer">
+      <div id="Top">
+        <table>
+            <tr>
+                <td>Product Id</td>
+                <td><input id="pid" type="text"></td>
+            </tr>
+            <tr>
+                <td> Product Name</td>
+                <td><input id="pname" type="text"></td>
+            </tr>
+            <tr>
+                <td> Product Price</td>
+                <td><input id="pprice" type="text"></td>
+            </tr>
+            <tr>
+               
+                <td><button onclick="Addproduct()">Add Product</button></td>
+            </tr>
+        </table>
+    </div>
+    
+     <div id="DivTable">
+
+     </div>
+    </div>
+</body>
+<script>
+    const arr=[];
+   function Addproduct()
+   {
+    var id1 =document.getElementById('pid').value;
+    var name=document.getElementById('pname').value;
+    var price=document.getElementById('pprice').value;
+
+    arr.push({Pid:id1,Pname:name,Pprice:price});
+    
+
+    var text = "<table ><tr><th>Product id</th> <th>Product Name</th><th>Product Price</th></tr>";
+
+    for (var i = 0; i < arr.length; i++) {
+     text += "<tr><td>" + arr[i].Pid + "</td><td>" + arr[i].Pname+ "</td><td>" + arr[i].Pprice+ "</td><tr>";
+     }
+   text += "</table>";
+    // console(text);
+    document.getElementById('DivTable').innerHTML=text;
+    }
+
+</script>
+<!-- <script src="Javascriptform.js"></script> -->
+</html>
