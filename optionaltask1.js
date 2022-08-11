@@ -1,6 +1,5 @@
 
 function submit(){
-    // alert()
 var name=document.getElementById('uname').value;
 var email=document.getElementById('uemail').value;
 var passwd=document.getElementById('upasswd').value;
@@ -46,20 +45,5 @@ if(!((name.match(letters))))
     document.getElementById('uname').value="";
     document.getElementById('uemail').value="";
     document.getElementById('upasswd').value="";
-    // document.getElementById("message1").innerHTML="";
-    // document.getElementById("message2").innerHTML="";
-    // document.getElementById("message3").innerHTML="";
-
     }
-
-    // else
-    // {
-    //     alert(2);
-    //     // document.getElementById("message2").innerHTML = "fdgfj";
-    // }
-    // if(passwd==""|| passwd<8|| passwd>12)
-    // {
-    //     alert("Please Enter valid password");   
-    // }
-
 }
